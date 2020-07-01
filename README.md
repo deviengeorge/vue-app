@@ -1,4 +1,4 @@
-# interview-agency-it
+# vue app contain using of Vuex, Vue router
 
 ## Project setup
 ```
