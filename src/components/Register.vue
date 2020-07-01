@@ -45,9 +45,10 @@ export default {
             email: this.email,
             password: this.password,
           })
-          .then(() => {
+          .then((res) => {
             // Go to Resource Page
             this.$router.push("resources");
+            this.$store.commit("edit", { amount: res.data.token });
           })
           .catch(() => {
             this.err = true;
