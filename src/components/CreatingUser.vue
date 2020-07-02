@@ -140,7 +140,7 @@ export default {
   border-radius: 10px;
   font-size: 18px;
   padding: 10px 18px;
-  margin: 20px 10px 0px 0px;
+  margin: 10px 5px;
   cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ export default {
   border-radius: 10px;
   font-size: 18px;
   padding: 10px 18px;
-  margin: 20px 0px 0px 10px;
+  margin: 10px 5px;
   cursor: pointer;
 }
 
@@ -164,7 +164,13 @@ export default {
 
 @media screen and (max-width: 650px) {
   .user-card {
-    padding: 35px;
+    padding: 0px;
+  }
+  .user {
+    padding: 50px 25px;
+  }
+  .user h1 {
+    padding: 0 70px;
   }
 }
 </style>

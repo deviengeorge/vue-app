@@ -127,8 +127,7 @@ export default {
   font-weight: 500;
   text-align: left;
   justify-self: start;
-  margin-bottom: 50px;
-  margin-left: 20px;
+  margin: 20px 5px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -171,7 +170,7 @@ export default {
   border-radius: 10px;
   font-size: 16px;
   padding: 5px 10px;
-  margin: 20px 10px 0px 0px;
+  margin: 10px 5px;
   cursor: pointer;
 }
 
@@ -183,7 +182,7 @@ export default {
   border-radius: 10px;
   font-size: 16px;
   padding: 5px 10px;
-  margin: 20px 0px 0px 10px;
+  margin: 10px 5px;
   cursor: pointer;
 }
 
@@ -226,6 +225,12 @@ export default {
 @media screen and (max-width: 1000px) and (min-width: 650px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .user-card {
+    padding: 20px;
+  }
+  .users {
+    padding: 50px 30px;
   }
 }
 

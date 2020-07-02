@@ -146,4 +146,11 @@ form .login {
 form .login:hover {
   color: #57b846;
 }
+
+@media screen and (max-width: 650px) {
+  form {
+    margin: 0 20px;
+    padding: 50px 20px 25px 20px;
+  }
+}
 </style>

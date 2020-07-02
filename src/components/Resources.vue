@@ -140,6 +140,14 @@ button.btn {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .resource-card {
+    padding: 20px;
+  }
+
+  .resources {
+    padding: 50px 30px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
